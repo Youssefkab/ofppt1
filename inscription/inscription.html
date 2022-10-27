@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="inscription.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Inscription</h1>
+        <span class="nom"> Nom :</span>
+        <input type="text" class="""nom">
+        <span class="prenom">Prenom :</span>
+        <input type="text" id="prenom">
+        <br><br>
+        <span class="age"> Age:</span>
+        <input type="number" id="age">
+        <br><br>
+        <span class="form_col"> Sexe :</span>
+        <label><input name="sexe" type="radio" value="H" />Homme</label>
+        <label id="labelSexeF"><input name="sexe" type="radio" value="F" />Femme</label>
+        <br><br>
+        <span class="col"> Nationalité :</span>
+        <label><input name="sexe" type="radio" value="F" />Marocaine </label>
+        <label id="labelSexeF"><input name="sexe" type="radio" value="A" />Anglaise</label>
+        <br><br>
+        <label class="form" for="country">Pays :</label>
+        <select name="country" id="country">
+            <option value="none">Pays</option>
+            <option value="en">Angleterre</option>
+            <option value="us">États-Unis</option>
+            <option value="fr">France</option>
+        </select>
+        <br><br>
+        <span class="check"> Intérêt :</span>
+        <br><br>
+        <label for="check"><input type="checkbox" name="interet" id="check1">Lecture</label>
+        <label for="check"><input type="checkbox" name="interet" id="check2">Culture</label>
+        <label for="check"><input type="checkbox" name="interet" id="check3">Sports</label>
+        <br><br>
+        <label for="check"><input type="checkbox" name="interet" id="check4">Voyage</label>
+        <label for="check"><input type="checkbox" name="interet" id="check5">Théatre</label>
+        <label for="check"><input type="checkbox" name="interet" id="check6">Sciences</label>
+        <br><br>
+        <span class="typee"></span>
+        <input type="submit"  onclick="controle()" value="Afficher" />
+
+
+
+    </div>
+    <script src="inscription.js"></script>
+</body>
+</html>
