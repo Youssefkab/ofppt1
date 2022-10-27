@@ -6,5 +6,5 @@ am_pm = "AM";
     }
     if (hour == 0) {
         hr = 12;
-        am_pm = "AM";
+        am_pm = "SBAH";
     }
